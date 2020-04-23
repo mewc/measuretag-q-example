@@ -4,6 +4,14 @@ To support a medium article i wrote, here is an example of building a tag for a 
 
 It can be scaled out to take in dependencies and other things - webpack/babel do the rest and have it minified and ready.
 
+## Getting started
+
+
+`yarn install` to get deps
+
+
+`yarn build` to build minified, ES5-ified file compatible with a Tag manager (pending limits and other weird quirks)
+
 
 ## Handy links i found useful over time 
 
