@@ -1,0 +1,25 @@
+{
+  "name": "MyCustomEventTracker",
+  "version": "1.0",
+  "description": "MyCustomEventTracker",
+  "main": "src/index.js",
+  "repository": "github.com/mewc/MyCustomEventTracker",
+  "author": "Michael Carter <m@mewc.info>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "yarn run watch",
+    "test": "node src/index.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "core-js": "3",
+    "html-webpack-plugin": "^4.0.3",
+    "path": "^0.12.7",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
